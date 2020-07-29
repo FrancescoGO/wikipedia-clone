@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <span>W</span>IKIPEDI<span>A</span>
+        </h1>
+        <h2>La enciclopedia libre</h2>
+    </header>
+    <main>
+        <section class="main-language-container">
+            <div class="language-link">
+                <a href=""><strong>Español</strong></a>
+                <p>1 612 000+ artículos</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>English</strong></a>
+                <p>6 125 000+ articles</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>日本語</strong></a>
+                <p>1 218 000+ 記事</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>Deutsch</strong></a>
+                <p>2 458 000+ Artikel</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>Русский</strong></a>
+                <p>1 644 000+ статей</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>Français</strong></a>
+                <p>2 236 000+ articles</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>Italiano</strong></a>
+                <p>1 623 000+ voci</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>中文</strong></a>
+                <p>1 130 000+ 條目</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>Português</strong></a>
+                <p>1 039 000+ artigos</p>
+            </div>
+            <div class="language-link">
+                <a href=""><strong>Polski</strong></a>
+                <p>1 420 000+ haseł</p>
+            </div>
+            <div class="language-logo">
+                <img src="assets/img/Wikipedia-logo-v2@2x.png" alt="Wikipedia Logo">
+            </div>
+        </section>
+        <section class="main-search-container">
+            <div class="input-container">
+                <input type="text">
+                <select>
+                    <option value="ar" lang="ar">العربية</option>
+                    <option value="ast" lang="ast">Asturianu</option>
+                    <option value="az" lang="az">Azərbaycanca</option>
+                    <option value="bg" lang="bg">Български</option>
+                    <option value="nan" lang="nan">Bân-lâm-gú / Hō-ló-oē</option>
+                    <option value="be" lang="be">Беларуская</option>
+                    <option value="ca" lang="ca">Català</option>
+                    <option value="cs" lang="cs">Čeština</option>
+                    <option value="cy" lang="cy">Cymraeg</option>
+                    <option value="da" lang="da">Dansk</option>
+                    <option value="de" lang="de">Deutsch</option>
+                    <option value="et" lang="et">Eesti</option>
+                    <option value="el" lang="el">Ελληνικά</option>
+                    <option value="en" lang="en">English</option>
+                    <option value="es" lang="es" selected="selected">Español</option>
+                    <option value="eo" lang="eo">Esperanto</option>
+                    <option value="eu" lang="eu">Euskara</option>
+                    <option value="fa" lang="fa">فارسی</option>
+                    <option value="fr" lang="fr">Français</option>
+                    <option value="gl" lang="gl">Galego</option>
+                    <option value="hy" lang="hy">Հայերեն</option>
+                    <option value="hi" lang="hi">हिन्दी</option>
+                    <option value="hr" lang="hr">Hrvatski</option>
+                    <option value="id" lang="id">Bahasa Indonesia</option>
+                    <option value="it" lang="it">Italiano</option>
+                    <option value="he" lang="he">עברית</option>
+                    <option value="ka" lang="ka">ქართული</option>
+                    <option value="la" lang="la">Latina</option>
+                    <option value="lv" lang="lv">Latviešu</option>
+                    <option value="lt" lang="lt">Lietuvių</option>
+                    <option value="hu" lang="hu">Magyar</option>
+                    <option value="mk" lang="mk">Македонски</option>
+                    <option value="arz" lang="arz">مصرى</option>
+                    <option value="ms" lang="ms">Bahasa Melayu</option>
+                    <option value="min" lang="min">Bahaso Minangkabau</option>
+                    <option value="nl" lang="nl">Nederlands</option>
+                    <option value="ja" lang="ja">日本語</option>
+                    <option value="no" lang="nb">Norsk (bokmål)</option>
+                    <option value="nn" lang="nn">Norsk (nynorsk)</option>
+                    <option value="ce" lang="ce">Нохчийн</option>
+                    <option value="uz" lang="uz">Oʻzbekcha / Ўзбекча</option>
+                    <option value="pl" lang="pl">Polski</option>
+                    <option value="pt" lang="pt">Português</option>
+                    <option value="kk" lang="kk">Қазақша / Qazaqşa / قازاقشا</option>
+                    <option value="ro" lang="ro">Română</option>
+                    <option value="ru" lang="ru">Русский</option>
+                    <option value="simple" lang="en">Simple English</option>
+                    <option value="ceb" lang="ceb">Sinugboanong Binisaya</option>
+                    <option value="sk" lang="sk">Slovenčina</option>
+                    <option value="sl" lang="sl">Slovenščina</option>
+                    <option value="sr" lang="sr">Српски / Srpski</option>
+                    <option value="sh" lang="sh">Srpskohrvatski / Српскохрватски</option>
+                    <option value="fi" lang="fi">Suomi</option>
+                    <option value="sv" lang="sv">Svenska</option>
+                    <option value="ta" lang="ta">தமிழ்</option>
+                    <option value="tt" lang="tt">Татарча / Tatarça</option>
+                    <option value="th" lang="th">ภาษาไทย</option>
+                    <option value="tg" lang="tg">Тоҷикӣ</option>
+                    <option value="azb" lang="azb">تۆرکجه</option>
+                    <option value="tr" lang="tr">Türkçe</option>
+                    <option value="uk" lang="uk">Українська</option>
+                    <option value="ur" lang="ur">اردو</option>
+                    <option value="vi" lang="vi">Tiếng Việt</option>
+                    <option value="vo" lang="vo">Volapük</option>
+                    <option value="war" lang="war">Winaray</option>
+                    <option value="zh" lang="zh">中文</option>
+                    <option value="ko" lang="ko">한국어</option>
+                </select>
+                <button>
+                    <span></span>
+                </button>
+            </div>
+        </section>
+        <section class="main-read-container">
+            <hr>
+            <button><i class="read-icon"></i>Leer Wikipedia en tu idioma<i class="arrow-icon"></i></button>
+            <hr>
+        </section>
+        <hr class="separator">
+        <section class="main-info-container">
+            <div class="info-wikipedia">
+                <div class="person icon"></div>
+                <p>Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</p>
+            </div>
+            <div class="download-wikipedia">
+                <div class="wiki icon"></div>
+                <p>
+                    <span><strong>Descargar Wikipedia para Android o iOS</strong></span>
+                    Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.
+                    <br><br>
+                    <span class="badge-googleplay"></span>
+                    <span class="badge-appstore"></span>
+                </p>
+            </div>
+            <div class="commons-wikipedia">
+                <div class="commons icon"></div>
+                <p><span class="title">Commons</span><br>
+                    Fotos libremente utilizables y más
+                </p>
+            </div>
+            <div class="books-wikipedia">
+                <div class="books icon"></div>
+                <p><span class="title">Wikilibros</span><br>
+                    Libros de contenido libre</p>
+            </div>
+            <div class="university-wikipedia">
+                <div class="university icon"></div>
+                <p><span class="title">Wikiversidad</span><br>
+                    Plataforma educativa libre</p>
+            </div>
+            <div class="source-wikipedia">
+                <div class="source icon"></div>
+                <p><span class="title">Wikisource</span><br>
+                    La biblioteca libre</p>
+            </div>
+            <div class="travel-wikipedia">
+                <div class="travel icon"></div>
+                <p><span class="title">Wikiviajes</span><br>
+                    La guía de viajes libre</p>
+            </div>
+            <div class="news-wikipedia">
+                <div class="news icon"></div>
+                <p><span class="title">Wikinoticias</span><br>
+                    La fuente de noticias libres</p>
+            </div>
+            <div class="quote-wikipedia">
+                <div class="quote icon"></div>
+                <p><span class="title">Wikiquote</span><br>
+                    La colección de citas</p>
+            </div>
+            <div class="species-wikipedia">
+                <div class="species icon"></div>
+                <p><span class="title">Wikispecies</span><br>
+                    Directorio de especies libre</p>
+            </div>
+            <div class="dictionary-wikipedia">
+                <div class="dictionary icon"></div>
+                <p><span class="title">Wikcionario</span><br>
+                    El diccionario libre</p>
+            </div>
+            <div class="data-wikipedia">
+                <div class="data icon"></div>
+                <p><span class="title">Wikidata</span><br>
+                    Base de conocimiento libre</p>
+            </div>
+            <div class="media-wikipedia">
+                <div class="media icon"></div>
+                <p><span class="title">MediaWiki</span><br>
+                    Aplicación wiki libre y abierta</p>
+            </div>
+            <div class="meta-wikipedia">
+                <div class="meta icon"></div>
+                <p><span class="title">Meta-Wiki</span><br>
+                    Coordinación y documentación comunitaria</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Esta página está disponible bajo la <a href="#">licencia Creative Atribución-CompartirIgual</a> <span>•</span> <a href="#">Términos de uso</a> <span>•</span> <a href="#">Normativa de privacidad</a></p>
+    </footer>
+</body>
+</html>
